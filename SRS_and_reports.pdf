@@ -1,0 +1,167 @@
+حسناً — فيما يلي المحتويات الخام (كما هي في المصدر) مقسَّمة تحت كل تسـك حسب ما وُجِد في المستودعات التي فحصتُها. لكل قطعة أذكُر المصدر (owner/repo + مسار الملف). المحتوى هنا هو نصٍّ خام مأخوذ مباشرة من ملفات Markdown التي في الريبو — دون تنسيق أو إعادة صياغة.
+
+Task 1 — مقدمة عن البرنامج ووظائفه
+Source: miznamuzammil12-source/Hospital-Appointment-BA-Project / Business_Requirements_Document.md
+# Business Requirements Document
+
+## Project Name
+Hospital Appointment & Patient Management System
+
+## 1. Introduction
+The purpose of this document is to define the business and system requirements for a hospital appointment and patient management system. The system will support appointment booking, doctor schedule[...] 
+
+## 2. Business Problem
+Hospitals often face difficulties in managing appointments manually. Patients may wait for long periods, receptionists may struggle with appointment clashes, doctors may not have an updated view o[...] 
+
+## 3. Proposed Solution
+The proposed solution is a web-based hospital appointment system where patients can register, search doctors, book appointments, and view appointment status. Doctors can manage availability and ad[...] 
+
+## 4. Business Objectives
+- Reduce manual appointment handling.
+- Minimize appointment clashes.
+- Improve patient experience.
+- Improve doctor schedule visibility.
+- Improve communication between patients, doctors, and receptionists.
+- Maintain patient records digitally.
+- Provide basic operational reports for hospital management.
+
+## 5. Scope
+
+### In Scope
+- Patient registration and login
+- Doctor search by specialty
+- Appointment booking
+- Appointment confirmation
+- Appointment cancellation and rescheduling
+- Doctor availability management
+- Patient medical record updates
+- Receptionist dashboard
+- Admin dashboard
+- Reports and notifications
+
+### Out of Scope
+- Online payment
+- Pharmacy management
+- Laboratory management
+- Insurance claim processing
+- Advanced telemedicine/video consultation
+- Mobile app version
+
+## 6. User Roles
+
+### Patient
+- Register and login.
+- Search doctors.
+- Book appointments.
+- View appointment status.
+- Cancel or reschedule appointment.
+- View basic medical record summary.
+
+### Doctor
+- View appointment schedule.
+- Update availability.
+- View patient details.
+- Add consultation notes.
+
+### Receptionist
+- View pending appointment requests.
+- Confirm appointments.
+- Reschedule or cancel appointments.
+- Manage patient queue.
+
+### Admin
+- Manage doctors.
+- Manage patients.
+- Manage receptionist users.
+- View reports.
+
+## 7. Functional Requirements
+
+| Requirement ID | Requirement Description | Priority |
+|---|---|---|
+| FR-01 | The system shall allow patients to register and login. | High |
+| FR-02 | The system shall allow patients to search doctors by specialty. | High |
+| FR-03 | The system shall allow patients to view doctor availability. | High |
+| FR-04 | The system shall allow patients to book appointments. | High |
+| FR-05 | The system shall allow receptionists to confirm appointments. | High |
+| FR-06 | The system shall allow appointment cancellation and rescheduling. | High |
+| FR-07 | The system shall allow doctors to view daily schedules. | High |
+| FR-08 | The system shall allow doctors to update availability. | Medium |
+| FR-09 | The system shall allow doctors to add consultation notes. | High |
+| FR-10 | The system shall maintain patient medical records. | High |
+| FR-11 | The system shall send appointment notifications. | Medium |
+| FR-12 | The system shall allow admins to manage doctors and patients. | High |
+| FR-13 | The system shall generate basic appointment reports. | Medium |
+
+## 8. Non-Functional Requirements
+
+| Requirement ID | Requirement Description |
+|---|---|
+| NFR-01 | The system should be easy to use for patients and hospital staff. |
+| NFR-02 | The system should protect patient data securely. |
+| NFR-03 | The system should load appointment screens within 3 seconds. |
+| NFR-04 | The system should support multiple users at the same time. |
+| NFR-05 | The system should maintain accurate appointment status updates. |
+| NFR-06 | The system should provide clear error messages. |
+| NFR-07 | The system should keep patient records confidential. |
+
+## 9. Assumptions
+- Patients have internet access.
+- Doctors provide accurate availability.
+- Receptionists review pending appointment requests regularly.
+- Hospital staff are trained to use the system.
+- Notification service is available.
+
+## 10. Constraints
+- Limited budget for initial version.
+- Limited project timeline.
+- Manual confirmation may still be needed for some appointments.
+- System depends on correct doctor schedule input.
+- Patient medical data must be handled carefully.
+
+## 11. Success Criteria
+- Patients can book appointments successfully.
+- Receptionists can confirm and manage appointments.
+- Doctors can view schedules and update consultation notes.
+- Admin can manage doctor and patient records.
+- Appointment status is clear and updated.
+- Documentation is understandable for development and testing teams.
+
+---
+
+Source: ITSTANVI28/chaitanya-hospital-management-system / SRS_Hospital_Management_System.md
+# Software Requirements Specification (SRS)
+
+## Chaitanya Multi Speciality Hospital Management System
+
+---
+
+| Document Info | Details |
+|---|---|
+| **Project Title** | Chaitanya Multi Speciality Hospital – Static Web-Based Management System |
+| **Document Version** | 1.0 |
+| **Organization** | Chaitanya Multi Speciality Hospital |
+| **Status** | Final / Evaluation |
+
+---
+
+## 1. Introduction
+
+### 1.1 Purpose
+Specifies the software requirements for the **Chaitanya Multi Speciality Hospital Management System (HMS)** client-side web application.
+
+### 1.2 Scope
+* **Public Website (`index.html`):** Patient-facing portal, doctor directory search, and appointment booking simulation.
+* **Admin Dashboard (`dashboard.html`):** Management panel for beds, patients, inventory stock, waste logs, and staff shifts.
+* **Architecture Constraint:** Static frontend implementation with in-memory state simulation; no database backend required.
+
+### 1.3 Definitions & Acronyms
+* **HMS:** Hospital Management System.
+* **CRUD:** Create, Read, Update, Delete.
+* **CDN:** Content Delivery Network (Font Awesome, Google Fonts).
+
+---
+
+## 2. Overall Description
+
+... (truncated for brevity) ...
